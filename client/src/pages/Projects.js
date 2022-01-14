@@ -41,29 +41,6 @@ export default function Projects() {
                     </Button>
                 </CardActions>
             </Card> 
-        <Card sx={{ maxWidth: 345, marginTop: 10}}>
-                <CardMedia
-                    component="img"
-                    height="200"
-                    image="https://ik.imagekit.io/txvpianbu38/79b79188b8d44236beee894da5399b5b_r3WQHY9F9Uo.png?updatedAt=1642069596092"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                    Kintaku restaurant cms
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                    Kintaku is cms for restaurant.
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                    Tech used: Vue JS, image kit, bcrypt, postgreSQL
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button>
-                    <a href='https://kintaku-admin-cms.web.app/' target="_blank">Visit</a>
-                    </Button>
-                </CardActions>
-            </Card> 
         </Stack>
         <Stack direction="row" justifyContent="center"
         alignItems="center" spacing={4}>
@@ -91,6 +68,32 @@ export default function Projects() {
                 </CardActions>
             </Card> 
         </Stack>
+        <Stack direction="row" justifyContent="center"
+        alignItems="center" spacing={4}>
+        <Card sx={{ maxWidth: 345, marginTop: 10}}>
+                <CardMedia
+                    component="img"
+                    height="200"
+                    image="https://ik.imagekit.io/txvpianbu38/79b79188b8d44236beee894da5399b5b_r3WQHY9F9Uo.png?updatedAt=1642069596092"
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                    Kintaku restaurant cms
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                    Kintaku is cms for restaurant.
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                    Tech used: Vue JS, image kit, bcrypt, postgreSQL
+                    </Typography>
+                </CardContent>
+                <CardActions>
+                    <Button>
+                    <a href='https://kintaku-admin-cms.web.app/' target="_blank">Visit</a>
+                    </Button>
+                </CardActions>
+            </Card> 
+            </Stack>
     </Box>
     </>
   );

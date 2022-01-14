@@ -43,7 +43,7 @@ export default function Profile() {
                                     <a href='https://www.linkedin.com/in/muhammad-ichsan-rosaldi-663a5a176/' target="_blank">
                                         <i class="fab fa-linkedin"></i>
                                     </a>
-                                    <a href='https://wa.me/081282983041' target="_blank">
+                                    <a href='https://wa.me/6281282983041' target="_blank">
                                         <i class="fab fa-whatsapp"></i>
                                     </a>
                                 </div>
@@ -54,7 +54,7 @@ export default function Profile() {
                         </span>
                         <div className='profile-options mt-5 mb-5'>
                             <button className='btn primary-btn text-white'>
-                                <a href='https://wa.me/081282983041' target="_blank" className="text-white">
+                                <a href='https://wa.me/6281282983041' target="_blank" className="text-white">
                                     Hire me
                                 </a>
                             </button>
