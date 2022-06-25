@@ -53,12 +53,15 @@ export default function Profile() {
                             </span>
                         </span>
                         <div className='profile-options mt-5 mb-5'>
-                            <button className='btn primary-btn text-white'>
-                                <a href='https://wa.me/6281282983041' target="_blank" className="text-white">
-                                    Hire me
-                                </a>
-                            </button>
-                            <a href='cv.pdf' download="ichsan-cv.pdf">
+                            
+                            <a href='https://wa.me/6281282983041' target="_blank" className="text-white">
+                                <button className='btn primary-btn text-white'>Hire me</button>
+                            </a>
+                            
+                            {/* <a href='ichsancv.pdf' download="ichsan-cv.pdf">
+                                <button className='btn highlighted-btn text-white'>Get Resume</button>
+                            </a> */}
+                            <a href="cv.pdf" download>
                                 <button className='btn highlighted-btn text-white'>Get Resume</button>
                             </a>
                         </div>
